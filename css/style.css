@@ -1,18 +1,53 @@
-#welcome-outer{
-    background: #a00198;
-    color:white;
-}
-
-#lead {
+body{
     font-family: 'Titillium Web', sans-serif;
 
 }
 
+.form-control {
+    background: #273a71;
+    border: #273a71;
+    color: white;
+    font-size: 20px;
+}
+
+.form-control:focus{
+    background-color: #273a71;
+    color: white;
+}
+
+.form-control:default{
+    color:white;
+}
+
+.form-control::placeholder {
+    color: white;
+
+}
+
+.spacer {
+    height: 5px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+#welcome-outer {
+    background: #87509c;
+
+    color: white;
+}
+
+
 #button-workwithus {
     background-color: orange;
-    box-shadow: 0px 6px 0px darkorange;
+    box-shadow: 0 6px 0 darkorange;
     padding: 15px;
 
+}
+
+#button-sendmessage {
+    background-color: #30bae7;
+    box-shadow: 0 6px 0 #29a0c7;
+    padding: 15px;
 }
 
 
@@ -30,4 +65,40 @@
     background-color: rgba(0, 0, 0, 0.2) !important;
 
 }
+
+#services-outer{
+    background-color: #17c2a4;
+}
+
+#team-outer {
+    background-color: #e7f1f8;
+
+}
+
+#skills-outer {
+    background-color: #ffffff;
+
+}
+
+#portfolio-outer {
+    background-color: #ffdd99;
+
+}
+
+#testimonials-outer {
+    background-color: #d74680;
+}
+
+#getintouch-outer {
+    background-color: #3c5499;
+    color: white;
+
+}
+
+#social a {
+    font-size: 28px;
+}
+
+
+
 
