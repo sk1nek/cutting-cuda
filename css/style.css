@@ -89,6 +89,17 @@ blockquote h1, footer{
 
 #team-outer {
     background-color: #e7f1f8;
+    color: black;
+}
+
+
+
+#team-outer .h2 {
+    color: #27283d;
+}
+
+#team-outer .h4 {
+    color: #30bae7;
 
 }
 
