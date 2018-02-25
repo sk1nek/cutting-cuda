@@ -1,5 +1,15 @@
 body{
     font-family: 'Titillium Web', sans-serif;
+    color: white;
+
+}
+
+blockquote h1, footer{
+    line-height: 80%;
+}
+
+.blockquote-footer {
+    color: #ffdd99;
 
 }
 
@@ -82,6 +92,7 @@ body{
 
 #portfolio-outer {
     background-color: #ffdd99;
+    color: black;
 
 }
 
