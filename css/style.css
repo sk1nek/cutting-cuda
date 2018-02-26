@@ -129,6 +129,10 @@ blockquote h1, footer{
     font-size: 28px;
 }
 
+#social a:hover{
+    color: dodgerblue;
+}
+
 .portfolio-buttons button{
     font-size: 24px;
 }
